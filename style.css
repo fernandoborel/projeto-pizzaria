@@ -5,10 +5,9 @@ body {
     background-color:#EEE;
     font-family:'Lato',Helvetica,Arial;
     font-size:15px;
-    display:flex;
     margin:0;
     min-height:100vh;
-    flex-direction: column;
+    display: flex;
 }
 .models {
     display:none;
@@ -339,56 +338,6 @@ h1 {
 .cart--finalizar:hover {
     background-color:#35af4a;
 }
-
-footer {
-    margin-top: -500px;
-    background-color: black;
-}
-
-.devfer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.devfer h1{
-    color: #CCC;
-    font-size: 30px;
-}
-
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-.linkedin{
-    background-color: #0E76A9 ;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    text-align: center;
-    margin-left: 10px;
-}
-.email{
-    background-color: #999 ;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    text-align: center;
-    margin-left: 10px;
-}
-.telefone{
-    background-color: #FF0000 ;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    text-align: center;
-    margin-left: 10px;
-}
-
 
 @media (max-width:1000px) {
     .pizza-area {
